@@ -1,3 +1,4 @@
+import * as InputBoxes from "./InputBoxes.js";
 class Multi_Page extends HTMLElement
 {
 	constructor()
@@ -38,6 +39,8 @@ class Multi_Page extends HTMLElement
 			flex-direction:column;
 			min-height:10px;
 			min-width:100px;
+			position:relative;
+			height:100%;
 		}
 		.mpg-switch_strip input
 		{
